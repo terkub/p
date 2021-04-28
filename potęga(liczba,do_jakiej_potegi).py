@@ -3,8 +3,9 @@ def potega(liczba, do_jakiej_potegi) :
         return potega(liczba, do_jakiej_potegi-1)* liczba
     else:
         return 1
-
-print("Jestem programem, co oblicza potęgi.")
+#program sie przedstawia
+print("Jestem programem, który oblicza potęgi.")
+#prosimy uzytnowanika o dane 
 podstawa = int(input("Podaj podstawę potęgowania:"))
 wykladnik = int(input("Podaj wykładnik potęgowania:"))
 
